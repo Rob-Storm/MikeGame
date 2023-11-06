@@ -16,4 +16,11 @@
 			"Enabled": true
 		}
 	]
+	"Modules": [ 
+		{ 
+			"Name": "MikeGame", 
+			"Type": "Runtime", 
+			"LoadingPhase": "Default" 
+		} 
+	]
 }
