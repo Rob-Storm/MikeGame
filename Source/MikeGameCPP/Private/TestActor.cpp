@@ -15,8 +15,7 @@ ATestActor::ATestActor()
 void ATestActor::BeginPlay()
 {
 	Super::BeginPlay();
-	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, TEXT("I AM A C++ CLASS AND I EXIST!!!"));
-	
+	//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, TEXT(message));
 }
 
 // Called every frame
@@ -24,5 +23,10 @@ void ATestActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ATestActor::TestFunction(FString Message)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, Message);
 }
 

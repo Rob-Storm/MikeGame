@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "TestActor.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class MIKEGAMECPP_API ATestActor : public AActor
 {
 	GENERATED_BODY()
@@ -22,5 +22,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION(BlueprintCallable)
+	void TestFunction(FString Message);
 
 };
