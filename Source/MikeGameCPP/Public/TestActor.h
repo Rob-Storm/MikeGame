@@ -7,7 +7,7 @@
 #include "TestActor.generated.h"
 
 UCLASS()
-class MIKEGAME_API ATestActor : public AActor
+class MIKEGAMECPP_API ATestActor : public AActor
 {
 	GENERATED_BODY()
 	

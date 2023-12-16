@@ -15,9 +15,7 @@ ATestActor::ATestActor()
 void ATestActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Cyan, TEXT("Hello, World!"));
-	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Cyan, TEXT("Hello, World! (The Sequel)"));
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, TEXT("I AM A C++ CLASS AND I EXIST!!!"));
 	
 }
 
