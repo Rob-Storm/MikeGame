@@ -26,4 +26,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void PrintString(FString Message);
 
+	UFUNCTION(BlueprintCallable)
+	void NewFunction();
+
 };

@@ -31,3 +31,7 @@ void ATestActor::PrintString(FString Message)
 
 }
 
+void ATestActor::NewFunction()
+{
+}
+
