@@ -25,8 +25,9 @@ void ATestActor::Tick(float DeltaTime)
 
 }
 
-void ATestActor::TestFunction(FString Message)
+void ATestActor::PrintString(FString Message)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, Message);
+
 }
 

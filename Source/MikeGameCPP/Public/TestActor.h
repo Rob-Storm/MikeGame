@@ -24,6 +24,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
-	void TestFunction(FString Message);
+	void PrintString(FString Message);
 
 };
