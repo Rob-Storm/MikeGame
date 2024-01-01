@@ -28,7 +28,7 @@ public:
 	//Variables
 
 	UPROPERTY(EditAnywhere, Blueprintable, BlueprintReadWrite, Category = "Actor Settings")
-	UStaticMesh* _Model;
+	UStaticMeshComponent* Model;
 
 
 	//Functions
